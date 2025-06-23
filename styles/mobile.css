@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+  body {
+    font-family: 'Comic Neue', cursive, sans-serif;
+    /*background: linear-gradient(135deg, #EEE5FF, #D4D1FF);*/
+    background-color: #EEE5FF;
+    margin: 0; padding: 0;
+    display: flex; flex-direction: column; min-height: 100vh;
+  }
+  nav {
+    background: #b22eb2;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    flex-wrap: wrap;
+  }
+  nav button {
+    background: #fff;
+    color: #381043;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    min-width: 80px;
+  }
+  nav button:hover {
+    background: #dfb4fa;
+    color: #381043;
+  }
+  nav button.active {
+    background: #fff;
+    color: #85389b;
+    box-shadow: 0 0 10px 3px #fff;
+  }
+  main {
+    flex: 1;
+    max-width: 700px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(255,111,145,0.3);
+  }
+  h1 {
+    text-align: center;
+    color: #381043;
+  }
+  label {
+    font-weight: 700;
+    display: block;
+    margin-top: 15px;
+    color: #381043;
+  }
+  textarea, input[type=number], input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #b22eb2;
+    margin-top: 5px;
+    font-size: 16px;
+    resize: vertical;
+  }
+  button.pick-btn {
+    margin-top: 20px;
+    background: #dfb4fa;
+    color: #381043;
+    border: none;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+  }
+  button.pick-btn:hover {
+    background: #b22eb2;
+    color: white;
+  }
+  .result {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #381043;
+    min-height: 50px;
+    text-align: center;
+    box-shadow: 0 0 10px 4px #dfb4fa;
+    border: 23px;
+    border-radius: 30px;
+  }
+  .history-list {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+  .history-item {
+    background: #dfb4fa;
+    border-radius: 15px;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    color: #381043;
+    font-weight: 600;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  form label {
+    margin-top: 12px;
+  }
+  form button {
+    margin-top: 20px;
+    padding: 5px 50px;
+    background: #dfb4fa;
+    color: #381043;
+    /*font-weight: 700;*/
+    font-size: larger;
+    border: 1px solid #381043;
+    border-radius: 15px;
+  }
+  form button:hover {
+    background: #b22eb2;
+    color: white;
+    font-size: larger;
+  }
+  .error-msg {
+    color: #381043;
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .welcome-msg {
+    text-align: center;
+    font-size: 18px;
+    color: #381043;
+    margin-bottom: 15px;
+  }
+
+/* Dark Mode */
+
+#mode {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4 {
+    color: white;
+}
+
+body.dark-mode label {
+  color: white;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode nav {
+  background-color: #222;
+}
+
+body.dark-mode nav button {
+  background-color: #333;
+  color: white;
+  border-color: white;
+}
+
+body.dark-mode nav button:hover {
+  background-color: #444;
+}
+
+body.dark-mode main,
+body.dark-mode section {
+  background-color: #1f1f2f;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.3);
+}
+
+body.dark-mode textarea,
+body.dark-mode input,
+body.dark-mode select {
+  background-color: #1f1f2f;
+  color: white;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 30px;
+  border: 1px solid white;
+}
+
+body.dark-mode .pick-btn,
+body.dark-mode button {
+  background-color: #333;
+  color: white;
+  border-color: white;
+}
+
+body.dark-mode .pick-btn:hover,
+body.dark-mode button:hover {
+  background-color: #555;
+}
+
+body.dark-mode .result {
+  color: white;
+}
+
+body.dark-mode .history-item {
+  background-color: #2d2d3d;
+  color: white;
+}
+
+body.dark-mode .error-msg {
+  color: white;
+}
+
+/*----- Footer -----*/
+footer {
+    text-align: center;
+}
