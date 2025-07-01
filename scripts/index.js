@@ -94,7 +94,7 @@
     }
 
     const deleteBtn = document.createElement('button');
-    deleteBtn.textContent = '🗑️ Delete Selected';
+    deleteBtn.textContent = '🗑️  Delete Selected';
     deleteBtn.className = 'pick-btn';
     deleteBtn.style.marginBottom = '20px';
     deleteBtn.addEventListener('click', () => {

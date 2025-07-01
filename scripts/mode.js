@@ -4,15 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (darkModeEnabled) {
     document.body.classList.add('dark-mode');
-    modeToggle.textContent = '💡☀️';
+    modeToggle.textContent = '☀️';
   } else {
-    modeToggle.textContent = '🕶️ ';
+    modeToggle.textContent = '🌙';
   }
 
   modeToggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     const isDark = document.body.classList.contains('dark-mode');
     localStorage.setItem('darkMode', isDark);
-    modeToggle.textContent = isDark ? '💡' : '🕶️';
+    modeToggle.textContent = isDark ? '☀️' : '🌙';
   });
 });
