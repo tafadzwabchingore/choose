@@ -1,20 +1,29 @@
 {
     "name": "Magic Selector",
-     "short_name": "Selector",
-     "start_url": ".",
-     "display": "standalone",
-     "background_color": "#fff",
-     "description": "An app that selects items from a list",
-     "icons": [
+    "short_name": "Selector",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "An app that selects items from a list",
+    "id": "/magicSelector/",
+    "icons": [
         {
-            "src": "images/magic-selector-icon-512x512.webp",
-            "sizes": "512x512",
-            "type": "image/webp"
+            "src": "images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
         },
         {
-            "src": "images/magic-selector-icon-192x192.webp",
-            "sizes": "192x192",
-            "type": "image/webp"
+            "src": "images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
-     ]
+    ],
+    "screenshots": [
+        {
+            "src": "images/tafadzwabchingore.github.io.png",
+            "type": "image/png",
+            "sizes": "540x720",
+            "form_factor": "narrow"
+        }
+  ]
 }
