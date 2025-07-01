@@ -20,15 +20,15 @@
     ],
     "screenshots": [
         {
-            "src": "images/tafadzwabchingore.github.io.png",
+            "src": "images/tafadzwabchingore.github.io.mobile.png",
             "type": "image/png",
             "sizes": "540x720",
             "form_factor": "narrow"
         },
         {
-            "src": "images/tafadzwabchingore.github.io.png",
+            "src": "images/tafadzwabchingore.github.io.desktop.png",
             "type": "image/png",
-            "sizes": "540x720",
+            "sizes": "720x540",
             "form_factor": "wide"
         }
   ]
