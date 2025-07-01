@@ -271,3 +271,12 @@
       navSelect.click();
     }
   })();
+
+  const params = new URLSearchParams(window.location.search);
+const fullProtocolUrl = params.get('url');
+console.log('User clicked protocol link:', fullProtocolUrl);
+
+// Parse and act accordingly
+if (fullProtocolUrl?.includes('select')) {
+  // do something with `select`
+}
