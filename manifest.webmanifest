@@ -1,0 +1,20 @@
+{
+    "name": "Magic Selector",
+     "short_name": "Selector",
+     "start_url": ".",
+     "display": "standalone",
+     "background_color": "#fff",
+     "description": "An app that selects items from a list",
+     "icons": [
+        {
+            "src": "",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+     ]
+}
