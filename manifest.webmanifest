@@ -24,6 +24,12 @@
             "type": "image/png",
             "sizes": "540x720",
             "form_factor": "narrow"
+        },
+        {
+            "src": "images/tafadzwabchingore.github.io.png",
+            "type": "image/png",
+            "sizes": "540x720",
+            "form_factor": "wide"
         }
   ]
 }
